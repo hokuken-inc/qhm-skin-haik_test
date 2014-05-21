@@ -1,11 +1,8 @@
 <head>
  #{$meta_content_type}
  <title>#{$this_page_title}</title>
- <meta http-equiv="content-style-type" content="text/css" />
  <meta name="keywords" content="#{$keywords}" />
  <meta name="description" content="#{$description}" />
- <meta http-equiv="Content-Script-Type" content="text/javascript" />
- <meta http-equiv="imagetoolbar" content="no" />
  <link rel="alternate" type="application/rss+xml" title="RSS" href="#{$rss_link}" />
  #{$default_css}
  #{$jquery_script}#{$jquery_cookie_script}
