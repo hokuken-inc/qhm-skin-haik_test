@@ -29,11 +29,13 @@ return array(
         'body_bgimage' => array(
             'title' => '本文背景画像',
             'description' => '本文の背景画像です。',
+            'type' => 'img',
             'value' => '',
         ),
         'logo_visible' => array(
             'title' => 'ロゴ画像の表示',
             'description' => 'ロゴ画像を表示するかどうか。',
+            'type' => 'if',
             'value' => true
         )
     )
