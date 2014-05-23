@@ -1,6 +1,10 @@
 <?php
 return array(
     'bootstrap' => true,
+
+    'default_layout' => "top", // top.skin.php
+    'content_layout' => "content", // content.skin.php
+
     'custom_options' => array(
         'logo_text' => array(
             'title' => 'ロゴ文字',
